@@ -1,0 +1,19 @@
+h1 {
+    color: red;
+}
+
+img:hover {
+    background-color: gold;
+}
+
+.bacon {
+    background-color: red;
+}
+
+.burger {
+    background-color: yellow;
+}
+
+#heading {
+    color: blue;
+}
