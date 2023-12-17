@@ -1,0 +1,11 @@
+Download these on VS code
+
+    1. Live server
+    2. Auto close tag
+    3. Auto rename tag
+    4. Tailwind CSS intelliSense
+    5. Babel ES6/ES7 
+    6. Babel JavaScript
+    7. Prettier - code formatter
+    8. Simple React snippets
+    9. ES7 + React/Redux/React-Native snippets
