@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS selectors</title>
+
+    <style>
+
+        /* simple selector  */
+        p {
+            color: blue;
+        }
+
+        /* class selector  */
+        .grn {
+            color: green;
+        }
+        
+        /* id selector  */
+        #aqua {
+            color: aqua;
+        }
+
+        /* pseudo-class selector */
+        #aqua:hover {
+            color: yellow;
+        }
+
+        /* universal selector */
+        * {
+            background-color: antiquewhite;
+        }
+
+        /* nested selector */
+        .box .grn {
+            color: cadetblue;
+        }
+
+    </style>
+</head>
+<body>
+    <p>This is a paragraph</p>
+    
+    <div class="box">
+        <div class="grn">This is a div</div>
+        <div class="grn">This is a div</div>
+    </div>
+
+    <div id="aqua">This is another div</div>
+</body>
+</html>
