@@ -1,0 +1,15 @@
+.box {
+    width: 100px;
+    height: 100px;
+    background-color: beige;
+    border: 2px solid black;
+    margin: 150px;
+    padding: 5px;
+}
+
+.box:hover {
+    /* transform: rotate(30deg); */
+    transform: scale(2);
+    /* transform: skew(45deg); */
+    /* transform: translate(100px, 50px); */
+}

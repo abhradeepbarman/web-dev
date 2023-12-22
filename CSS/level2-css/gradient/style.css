@@ -1,0 +1,18 @@
+.box {
+    width: 200px;
+    height: 200px;
+    border: 1px solid black;
+
+    background-image: linear-gradient(to bottom right, greenyellow, yellow,  blue);
+}
+
+.box1 {
+    margin: 20px;
+    width: 130px;
+    height: 200px;
+    border: 1px solid black;
+
+    background-image: radial-gradient(circle, greenyellow, blue, orange);
+}
+
+/* Homework :- Conic Gradient */

@@ -1,0 +1,47 @@
+.container {
+    margin: 10px;
+}
+
+.item {
+    height: 100px;
+    width: 100px;
+    background-color: beige;
+    border: 2px solid black;
+    margin: 15px;
+}
+
+#rotateX:hover {
+    transform: rotateX(45deg);
+}
+
+#rotateY:hover {
+    transform: rotateY(45deg);
+}
+
+#rotateZ:hover {
+    transform: rotateZ(45deg);
+}
+
+#translateX:hover {
+    transform: translateX(100px);
+}
+
+#translateY:hover {
+    transform: translateY(100px);
+}
+
+#translateZ:hover {
+    transform: perspective(300px) translateZ(100px);
+}
+
+#scaleX:hover {
+    transform: scaleX(2);
+}
+
+#scaleY:hover {
+    transform: scaleY(2);
+}
+
+#scaleZ:hover {
+    transform: perspective(300px) scaleZ(5) rotateY(30deg);
+}
