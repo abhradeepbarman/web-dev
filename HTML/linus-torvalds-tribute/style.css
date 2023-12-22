@@ -1,0 +1,16 @@
+* {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: antiquewhite;
+}
+
+h1, h2 {
+    font-family: 'Ubuntu', sans-serif;
+    text-shadow: 3px 3px 5px pink;
+}
+
+img {
+    border-radius: 10px;
+}
