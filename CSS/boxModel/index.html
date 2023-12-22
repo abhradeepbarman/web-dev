@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Box Model in CSS</title>
+
+    <style>
+        .box {
+            height: 200px;
+            width: 200px;
+            border: 1px solid black;
+            margin: 20px;
+            padding: 20px;
+            box-sizing: border-box;
+        }
+
+        #foo {
+            background-color: pink;
+        }
+
+        #bar {
+            background-color: orange;
+        }
+
+        #baz {
+            background-color: antiquewhite;
+        }
+
+    </style>
+
+</head>
+<body>
+    <div class="box" id="foo">A</div>
+    <div class="box" id="bar">B</div>
+    <div class="box" id="baz">C</div>
+</body>
+</html>
