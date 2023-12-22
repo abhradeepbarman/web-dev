@@ -1,0 +1,51 @@
+.box {
+    width: 280px;
+    border: 1px solid black;
+    border-radius: 8px;
+    margin: 10px;
+    padding: 10px;
+}
+
+.banner {
+    width: 250px;
+    border-radius: 5px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 10px;
+}
+
+h2 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+span {
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+
+#crnt-price {
+    color: #6977CD;
+    font-weight: bolder;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#prev-price {
+    color: gray;
+    text-decoration: line-through;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#discount {
+   display: inline; 
+   padding: 5px;
+   border: 1px solid #1DD1A1;
+   border-radius: 5px;
+   background-color: #1DD1A1;
+   color: whitesmoke;
+   font-weight: 600;
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
