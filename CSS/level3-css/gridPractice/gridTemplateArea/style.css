@@ -1,0 +1,41 @@
+.container {
+    height: 400px;
+    width: 600px;
+    border: 1px solid black;
+
+    display: grid;
+    gap: 10px;
+
+    grid-template-rows: repeat(3, 1fr);
+    grid-template-columns: 100px 1fr 100px;
+
+    grid-template-areas: 
+    "hd hd hd"
+    "nv art ad"
+    "nv ft ft";
+}
+
+.box {
+    background-color: yellow;
+    border: 1px solid brown;
+}
+
+#header {
+    grid-area: hd;
+}
+
+#nav {
+    grid-area: nv;
+}
+
+#article {
+    grid-area: art;
+}
+
+#ads {
+    grid-area: ad;
+}
+
+#footer {
+    grid-area: ft;
+}
