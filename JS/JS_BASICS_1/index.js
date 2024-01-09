@@ -30,4 +30,11 @@ a = 'Abhra';
 console.log(a);
 
 
+// let a = 6;
+// // let a = 10;  // not possible - let redeclaration
 
+// var b = 10;
+// var b = 15;  //possible - var redeclaration
+
+// console.log(a);
+// console.log(b);
