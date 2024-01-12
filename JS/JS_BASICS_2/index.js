@@ -1,31 +1,26 @@
-
 //object creation
 // let rectangle = {
 //     length: 1,
 //     breadth: 2,
 
+//     //method
 //     draw: function() {
 //         console.log('drawing rectangle');
 //     }
 // };
+
+// console.log(rectangle)
+// console.log(rectangle.length);
+// console.log(rectangle.breadth);
+// console.log(rectangle.draw());
+
 
 
 
 //factory function
 // function createRectangle(length, breadth) {
 
-//     // let rectangle = {
-//     //     length: 1,
-//     //     breadth: 2,
-    
-//     //     draw: function() {
-//     //         console.log('drawing rectangle');
-//     //     }
-//     // };
-//     // return rectangle;
-
-
-//     return rectangle = {
+//     let Rectangle = {
 //         // length: length,
 //         // breadth: breadth,
 
@@ -36,17 +31,18 @@
 //             console.log('drawing rectangle');
 //         }
 //     };
+    
+//     return Rectangle;
 // } 
 
-// let rectangleObj = createRectangle(5,4);
+// let rectangleObj = createRectangle(4,9);
+// console.log(rectangleObj);
 
 
 
 
-
-
-// constructor function --> Pascal Notation
-//initialise properties & methods
+// // constructor function -> Pascal Notation
+// // initialise properties & methods
 // function Rectangle(length, breadth) {
 //     this.length = length;
 //     this.breadth = breadth;
@@ -57,57 +53,57 @@
 
 // //object creation using constructor function
 // let rectangleObj = new Rectangle(4,6);
+// console.log(rectangleObj);
+
 
 
 
 
 // //dynamic nature of objects
-// rectangleObj.color = 'yellow';
-// delete rectangleObj.color;
+// let obj = {
+//     length: 1,
+//     breadth: 2
+// };
+// console.log(obj);
+
+// obj.height = 5;
+// console.log(obj);
+
+// delete obj.height;
+// console.log(obj);
 
 
+
+
+
+// primitives are passed as value
+// let a = 10;
+// let b = a;
+
+// a++;
+// console.log(a);
+// console.log(b);
+
+
+
+// References are passed by Address/reference
 // let a = {value: 10};
 // let b = a;
 
 // a.value++;
-
 // console.log(a.value);
 // console.log(b.value);
 
 
 
 
-// primitives are passed as value
-// let a = 5;
-// function inc(a) {
-//     a++;
-// }
 
-// inc(a);
-// console.log(a);
-
-
-// References are passed by Address / reference
-// let a = {value: 5};
-// function inc(a) {
-//     a.value++;
-// }
-
-// inc(a);
-// console.log(a.value);
-
-
-
-
-
+// // for-in loop  --> IT IS APPLIED ON OBJECTS
 // let Rectangle = {
 //     length: 2,
 //     breadth: 4
 // };
 
-
-
-// for-in loop
 // for(let key in Rectangle) {
 //     //keys are reflected through key variable
 //     //values are reflected through rectangle[key]
@@ -116,20 +112,20 @@
 
 
 
-// // for-of loop
-// for(let key of Object.keys(Rectangle)) {
-//     console.log(key);
+
+
+// // for-of loop  -->IT IS APPLIED ON ITERABLES -> ARRAYS, MAPS ETC.
+
+// let arr = [1,3,5,7,9];
+// for(let i of arr) {
+//     console.log(i);
 // }
 
-// for(let key of Object.entries(Rectangle)) {
-//     console.log(key);
-// }
 
 
 
 
-
-//check property exist or not
+// //check property exist or not
 // if('color' in Rectangle) {
 //     console.log('present');
 // }
