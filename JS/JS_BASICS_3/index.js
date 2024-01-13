@@ -227,6 +227,27 @@
 
 
 
+
+
+
+//sorting on array of objects
+// let arr = [
+//     {value: 5},
+//     {value: 2},
+//     {value: 3},
+//     {value: 8},
+//     {value: 4},
+//     {value: 1},
+// ];
+
+// arr.sort(function(obj1, obj2) {
+//     return obj1.value - obj2.value;
+// })
+
+
+
+
+
 //filter an array
 // let numbers = [1,2,-1,5,-4];
 
