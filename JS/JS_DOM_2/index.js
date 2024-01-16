@@ -10,6 +10,33 @@
 
 
 
+
+
+//dispatch event --> It is used for manually / programattically create an event
+// Create a new button element
+// var myButton = document.createElement("button");
+// myButton.textContent = "Click me";
+
+// // Add a click event listener
+// myButton.addEventListener("click", function() {
+//     alert("Button clicked!");
+// });
+
+// // Append the button to the document body
+// document.body.appendChild(myButton);
+
+// // Dispatch a click event programmatically
+// var clickEvent = new Event("click");
+// myButton.dispatchEvent(clickEvent);
+
+
+
+
+
+
+
+
+
 //Event Object
 // const content = document.querySelector('#wrapper');
 
@@ -54,10 +81,10 @@
 
 
 
-let element = document.querySelector('#wrapper');
+// let element = document.querySelector('#wrapper');
 
-element.addEventListener('click', function(event) {
-    if(event.target.nodeName === 'SPAN') {
-        console.log("Hello " + event.target.textContent);
-    }
-});
+// element.addEventListener('click', function(event) {
+//     if(event.target.nodeName === 'SPAN') {
+//         console.log("Hello " + event.target.textContent);
+//     }
+// });
